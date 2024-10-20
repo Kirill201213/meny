@@ -31,7 +31,7 @@ width:100%;
 
 
 details[open] .header-summary::after {
-transform: rotate(180deg) scaleX(1.3);
+transform: rotate(270deg) scaleX(1.3);
 
 
 }
@@ -79,11 +79,11 @@ padding-right: 20px;
 
 
 .header-summary::after {
-content: '⌄';
+content: 'ᐳ'; 
 font-size: 35px;
 margin-left: 8px;
 display: inline-block;
-transform: rotate(0deg) scaleX(1.3);
+transform: rotate(90deg) scaleX(1.3);
 transition: transform 0.3s ease;
 
 }
